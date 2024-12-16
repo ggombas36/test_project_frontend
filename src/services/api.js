@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://127.0.0.1:5000';
+const API_BASE_URL = 'https://test-project-backend-a49q.onrender.com';
 
 export const getIMUData = async () => {
   const response = await axios.get(`${API_BASE_URL}/imu`);
